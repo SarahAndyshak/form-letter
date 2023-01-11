@@ -5,7 +5,7 @@ window.onload = function() {
     
     document.querySelector("span#person1a").innerText = "person1";
 
-    document.querySelector("div#story").removeAttribute("class");
+    document.querySelector("div#letter").removeAttribute("class");
     
     event.preventDefault();
   };
