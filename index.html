@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Form letter</title>
+  </head>
+  <body>
+    <h1>Fill in the blank with your name to receive a letter addressed to you.</h1>
+    <form>
+      <label for="person1Input">Your name</label>
+      <input id="person1Input" type="text" name="person1Input">
+      <button type="submit">Send me my letter!</button>
+    </form>
+
+    <div id="letter" class="hidden">
+      <h1>A Letter for You</h1>
+      <p>
+        Dear <span id="person1a"></span> ipsum dolor, sit amet consectetur adipisicing elit. Iure quisquam nisi dolores voluptate, sunt incidunt? Earum, necessitatibus veniam? Dolor ipsa maxime consectetur natus, illo sit excepturi asperiores mollitia tempore vitae?
+      </p>
+    </div>
+  </body>
+</html>
